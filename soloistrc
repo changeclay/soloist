@@ -1,0 +1,5 @@
+cookbook_paths:
+  - ./chef/cookbooks/
+
+recipes:
+  - pivotal_workstation::chrome
