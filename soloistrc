@@ -4,3 +4,6 @@ cookbook_paths:
 recipes:
   - pivotal_workstation::chrome
   - pivotal_workstation::rvm
+  - pivotal_workstation::homebrew
+  - pivotal_workstation::mysql
+  - pivotal_workstation::mongodb
