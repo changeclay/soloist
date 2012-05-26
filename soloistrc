@@ -2,6 +2,7 @@ cookbook_paths:
   - ./chef/cookbooks/
 
 recipes:
+  - change_workstation::git_scripts
   - pivotal_workstation::chrome
   - pivotal_workstation::rvm
   - pivotal_workstation::homebrew
@@ -10,3 +11,4 @@ recipes:
   - pivotal_workstation::redis
   - change_workstation::sphinx
   - pivotal_workstation::memcached
+  - pivotal_workstation::git_config_global_defaults
