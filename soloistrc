@@ -8,3 +8,5 @@ recipes:
   - pivotal_workstation::mysql
   - pivotal_workstation::mongodb
   - pivotal_workstation::redis
+  - change_workstation::sphinx
+  - pivotal_workstation::memcached
